@@ -1,0 +1,132 @@
+24 of 24 unignored mutations are tested (100%). 3 mutations were ignored.
+/app/app.js:14:13 Removed var descendingNumbers = start; -> SURVIVED
+/app/app.js:15:13 Removed for (var i = start - 1; i >= stop; i--) { descendingNumbers = descendingNumbers + ' ' + i; } -> SURVIVED
+/app/app.js:18:13 Removed return descendingNumbers; -> SURVIVED
+/app/app.js:11:34 Replaced 'number' with "MUTATION!" -> SURVIVED
+/app/app.js:11:62 Replaced 'number' with "MUTATION!" -> SURVIVED
+/app/app.js:15:31 Replaced  -  with + -> SURVIVED
+/app/app.js:15:34 Replaced 1 with 2 -> SURVIVED
+/app/app.js:16:17 Removed descendingNumbers = descendingNumbers + ' ' + i; -> SURVIVED
+/app/app.js:16:60 Replaced  +  with - -> SURVIVED
+/app/app.js:16:54 Replaced  +  with - -> SURVIVED
+/app/app.js:16:57 Replaced ' ' with "MUTATION!" -> SURVIVED
+13 of 24 unignored mutations are tested (54%). 3 mutations were ignored.
+24 of 24 unignored mutations are tested (100%). 3 mutations were ignored.
+/app/app.js:9:51 Replaced  ||  with && -> SURVIVED
+/app/app.js:8:88 Replaced  ||  with && -> SURVIVED
+/app/app.js:8:63 Replaced  ||  with && -> SURVIVED
+/app/app.js:8:38 Replaced  ||  with && -> SURVIVED
+/app/app.js:10:17 Removed return false; -> SURVIVED
+/app/app.js:10:24 Replaced false with true -> SURVIVED
+/app/app.js:13:25 Replaced  >  with >= -> SURVIVED
+/app/app.js:13:45 Replaced  -  with + -> SURVIVED
+/app/app.js:13:49 Replaced  *  with / -> SURVIVED
+/app/app.js:14:25 Replaced  >  with >= -> SURVIVED
+/app/app.js:14:28 Replaced 0 with 1 -> SURVIVED
+/app/app.js:15:21 Removed return {area: area, message: messageSuccess}; -> SURVIVED
+/app/app.js:15:29 Removed area: area,  -> SURVIVED
+/app/app.js:15:41 Removed message: messageSuccess -> SURVIVED
+/app/app.js:17:30 Replaced  <  with <= -> SURVIVED
+/app/app.js:17:33 Replaced 0 with 1 -> SURVIVED
+/app/app.js:21:21 Removed return {area: 0, message: 'Big null'}; -> SURVIVED
+/app/app.js:21:29 Removed area: 0,  -> SURVIVED
+/app/app.js:21:38 Removed message: 'Big null' -> SURVIVED
+/app/app.js:21:35 Replaced 0 with 1 -> SURVIVED
+/app/app.js:21:47 Replaced 'Big null' with "MUTATION!" -> SURVIVED
+29 of 50 unignored mutations are tested (57%). 3 mutations were ignored.
+/app/app.js:9:51 Replaced  ||  with && -> SURVIVED
+/app/app.js:8:88 Replaced  ||  with && -> SURVIVED
+/app/app.js:8:63 Replaced  ||  with && -> SURVIVED
+/app/app.js:8:38 Replaced  ||  with && -> SURVIVED
+/app/app.js:10:17 Removed return false; -> SURVIVED
+/app/app.js:10:24 Replaced false with true -> SURVIVED
+/app/app.js:13:25 Replaced  >  with >= -> SURVIVED
+/app/app.js:14:25 Replaced  >  with >= -> SURVIVED
+/app/app.js:14:28 Replaced 0 with 1 -> SURVIVED
+/app/app.js:15:21 Removed return {area: area, message: messageSuccess}; -> SURVIVED
+/app/app.js:15:29 Removed area: area,  -> SURVIVED
+/app/app.js:15:41 Removed message: messageSuccess -> SURVIVED
+/app/app.js:17:30 Replaced  <  with <= -> SURVIVED
+/app/app.js:17:33 Replaced 0 with 1 -> SURVIVED
+/app/app.js:21:21 Removed return {area: 0, message: 'Big null'}; -> SURVIVED
+/app/app.js:21:29 Removed area: 0,  -> SURVIVED
+/app/app.js:21:38 Removed message: 'Big null' -> SURVIVED
+/app/app.js:21:35 Replaced 0 with 1 -> SURVIVED
+/app/app.js:21:47 Replaced 'Big null' with "MUTATION!" -> SURVIVED
+31 of 50 unignored mutations are tested (62%). 3 mutations were ignored.
+/app/app.js:9:51 Replaced  ||  with && -> SURVIVED
+/app/app.js:8:88 Replaced  ||  with && -> SURVIVED
+/app/app.js:8:63 Replaced  ||  with && -> SURVIVED
+/app/app.js:8:38 Replaced  ||  with && -> SURVIVED
+/app/app.js:10:17 Removed return false; -> SURVIVED
+/app/app.js:10:24 Replaced false with true -> SURVIVED
+/app/app.js:13:25 Replaced  >  with >= -> SURVIVED
+/app/app.js:14:25 Replaced  >  with >= -> SURVIVED
+/app/app.js:14:28 Replaced 0 with 1 -> SURVIVED
+/app/app.js:15:21 Removed return {area: area, message: messageSuccess}; -> SURVIVED
+/app/app.js:15:29 Removed area: area,  -> SURVIVED
+/app/app.js:15:41 Removed message: messageSuccess -> SURVIVED
+/app/app.js:17:30 Replaced  <  with <= -> SURVIVED
+/app/app.js:17:33 Replaced 0 with 1 -> SURVIVED
+/app/app.js:21:21 Removed return {area: 0, message: 'Big null'}; -> SURVIVED
+/app/app.js:21:29 Removed area: 0,  -> SURVIVED
+/app/app.js:21:38 Removed message: 'Big null' -> SURVIVED
+/app/app.js:21:35 Replaced 0 with 1 -> SURVIVED
+/app/app.js:21:47 Replaced 'Big null' with "MUTATION!" -> SURVIVED
+31 of 50 unignored mutations are tested (62%). 3 mutations were ignored.
+/app/app.js:9:51 Replaced  ||  with && -> SURVIVED
+/app/app.js:8:88 Replaced  ||  with && -> SURVIVED
+/app/app.js:8:63 Replaced  ||  with && -> SURVIVED
+/app/app.js:8:38 Replaced  ||  with && -> SURVIVED
+/app/app.js:10:17 Removed return false; -> SURVIVED
+/app/app.js:10:24 Replaced false with true -> SURVIVED
+/app/app.js:13:25 Replaced  >  with >= -> SURVIVED
+/app/app.js:14:25 Replaced  >  with >= -> SURVIVED
+/app/app.js:14:28 Replaced 0 with 1 -> SURVIVED
+/app/app.js:15:21 Removed return {area: area, message: messageSuccess}; -> SURVIVED
+/app/app.js:15:29 Removed area: area,  -> SURVIVED
+/app/app.js:15:41 Removed message: messageSuccess -> SURVIVED
+/app/app.js:17:30 Replaced  <  with <= -> SURVIVED
+/app/app.js:17:33 Replaced 0 with 1 -> SURVIVED
+/app/app.js:21:21 Removed return {area: 0, message: 'Big null'}; -> SURVIVED
+/app/app.js:21:29 Removed area: 0,  -> SURVIVED
+/app/app.js:21:38 Removed message: 'Big null' -> SURVIVED
+/app/app.js:21:35 Replaced 0 with 1 -> SURVIVED
+/app/app.js:21:47 Replaced 'Big null' with "MUTATION!" -> SURVIVED
+31 of 50 unignored mutations are tested (62%). 3 mutations were ignored.
+/app/app.js:9:51 Replaced  ||  with && -> SURVIVED
+/app/app.js:8:88 Replaced  ||  with && -> SURVIVED
+/app/app.js:8:63 Replaced  ||  with && -> SURVIVED
+/app/app.js:8:38 Replaced  ||  with && -> SURVIVED
+/app/app.js:13:25 Replaced  >  with >= -> SURVIVED
+/app/app.js:14:25 Replaced  >  with >= -> SURVIVED
+/app/app.js:14:28 Replaced 0 with 1 -> SURVIVED
+/app/app.js:15:21 Removed return {area: area, message: messageSuccess}; -> SURVIVED
+/app/app.js:15:29 Removed area: area,  -> SURVIVED
+/app/app.js:15:41 Removed message: messageSuccess -> SURVIVED
+/app/app.js:17:30 Replaced  <  with <= -> SURVIVED
+/app/app.js:17:33 Replaced 0 with 1 -> SURVIVED
+/app/app.js:21:21 Removed return {area: 0, message: 'Big null'}; -> SURVIVED
+/app/app.js:21:29 Removed area: 0,  -> SURVIVED
+/app/app.js:21:38 Removed message: 'Big null' -> SURVIVED
+/app/app.js:21:35 Replaced 0 with 1 -> SURVIVED
+/app/app.js:21:47 Replaced 'Big null' with "MUTATION!" -> SURVIVED
+33 of 50 unignored mutations are tested (66%). 3 mutations were ignored.
+/app/app.js:9:51 Replaced  ||  with && -> SURVIVED
+/app/app.js:8:88 Replaced  ||  with && -> SURVIVED
+/app/app.js:8:63 Replaced  ||  with && -> SURVIVED
+/app/app.js:8:38 Replaced  ||  with && -> SURVIVED
+/app/app.js:13:25 Replaced  >  with >= -> SURVIVED
+/app/app.js:14:25 Replaced  >  with >= -> SURVIVED
+/app/app.js:14:28 Replaced 0 with 1 -> SURVIVED
+/app/app.js:15:21 Removed return {area: area, message: messageSuccess}; -> SURVIVED
+/app/app.js:15:29 Removed area: area,  -> SURVIVED
+/app/app.js:15:41 Removed message: messageSuccess -> SURVIVED
+/app/app.js:17:30 Replaced  <  with <= -> SURVIVED
+/app/app.js:17:33 Replaced 0 with 1 -> SURVIVED
+/app/app.js:21:21 Removed return {area: 0, message: 'Big null'}; -> SURVIVED
+/app/app.js:21:29 Removed area: 0,  -> SURVIVED
+/app/app.js:21:38 Removed message: 'Big null' -> SURVIVED
+/app/app.js:21:35 Replaced 0 with 1 -> SURVIVED
+/app/app.js:21:47 Replaced 'Big null' with "MUTATION!" -> SURVIVED
+33 of 50 unignored mutations are tested (66%). 3 mutations were ignored.
